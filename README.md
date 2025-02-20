@@ -4,7 +4,7 @@ AgriCare is a React Native Expo mobile application that helps smallholder farmer
 
 ## 🚀 Features
 
-- ✅ **Plant Disease Detection:** – Capture plant images and identify diseases using VGG16 model.
+- ✅ **Plant Disease Detection:** – Capture plant images and identify diseases using transfer learning.
 - ✅ **Pest Detection:** – Detect harmful pests affecting crops.
 - ✅ **AI Assistance:** – Get farming recommendations using Gemini API (online) or Gemma API (offline).
 - ✅ **Offline Support:** – Store and retrieve data with SQLite.
@@ -14,7 +14,7 @@ AgriCare is a React Native Expo mobile application that helps smallholder farmer
 
 - **FrontEnd:** React Native (Expo CLI)
 
-- **AI MOdel:** TensorFlow.js (VGG16 for disease & pest detection)
+- **AI Model:** TensorFlow.js (transfer learning for disease & pest detection)
 - **Database:** SQLite (for offline storage)
 - **AI Assistance:**
   - **Gemini API** (for online AI-based insights)
